@@ -21,6 +21,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
+  gem 'coveralls', require: false
 end
 
 group :development do
